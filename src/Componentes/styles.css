@@ -1,0 +1,135 @@
+.navbar-fixed-top {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+  }
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin-top: 0px;
+}
+.Instrumentos{
+  margin-top: 60px;
+}
+
+h1, .Imagen {
+  text-align: center;
+  color: white !important; 
+  
+}
+.Descripcion{
+  width: 1200px;
+  color: white !important; 
+  margin-top: 30px;
+
+}
+.Mapa{
+  text-align: center;
+}
+
+.Donde{
+  text-align: center;
+  color: white !important; 
+}
+.Contenedor{
+  display: flex;
+}
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Grilla{
+  margin-top: 10px;
+  background-color: white;
+  padding: 10px 10px 10px 10px;
+  border-radius: 10px;
+  
+}
+.Boton{
+  margin-top: 60px;
+  display: flex;
+  justify-content: right;
+}
+.Formulario-Instrumento{
+  margin-top: 70px;
+  border: solid 1px;
+  border-radius: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-bottom: 20px;
+  background-color: white;
+  
+}
+.BotonAgregar{
+  align-items: center;
+  justify-content: center;
+  margin-left: 250px;
+  margin-bottom: 20px;
+}
+.CarritoTitulo{
+  margin-top: 40px
+}
+.divVisible{
+  visibility:visible;
+}
+
+.divInvisible{
+  visibility:hidden;
+}
+.navbar-custom {
+  background-color: black !important; /* Fondo negro */
+}
+
+.navbar-custom .nav-link {
+  color: white !important; /* Texto blanco */
+}
+
+.navbar-custom .nav-link:hover {
+  color: lightgray !important; /* Color de texto al pasar el ratón por encima */
+}
+
+.navbar-custom .nav-link.active {
+  color: white !important; /* Asegura que el enlace activo también sea blanco */
+}
+.PedidosTitulo{
+  color: white !important; 
+}
+.LabelCarrito{
+  color: white !important; 
+}
+
+.titleContainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.carrouselContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*CARROUSEL*/
+.carrousel {
+  width: 70%;
+  height: 700px;
+}
+
+.p {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 30px;
+}
+
+.imgCarrousel {
+  width: 70%;
+  height: 700px;
+}
+
+                        
